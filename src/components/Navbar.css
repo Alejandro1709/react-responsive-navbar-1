@@ -1,0 +1,57 @@
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: snow;
+  border-bottom: 1px solid #eee;
+  user-select: none;
+}
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  /* background-color: antiquewhite; */
+}
+
+.Logo-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: coral; */
+  height: 60px;
+}
+
+.Links-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  /* height: 80px; */
+}
+
+.Links-Container ul {
+  text-align: center;
+  list-style: none;
+  /* background-color: beige; */
+  width: 100%;
+}
+
+.Links-Container ul li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 5px
+}
+
+.Links-Container ul li:hover {
+  background-color: aquamarine;
+}
+
+.Account-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: cadetblue; */
+  height: 40px;
+}
