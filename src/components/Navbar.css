@@ -55,3 +55,29 @@
   /* background-color: cadetblue; */
   height: 40px;
 }
+
+@media screen and (min-width: 800px) {
+  .Navbar {
+    height: 60px;
+  }
+
+  .Wrapper {
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 20px;
+  }
+
+  .Logo-Container {
+    height: 40px;
+  }
+
+  .Links-Container {
+    flex: 0.5;
+    /* height: 80px; */
+  }
+
+  .Links-Container ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
